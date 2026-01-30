@@ -184,7 +184,7 @@ export async function checkOne(input: {
     key: input.key,
     ok: false,
     status: result.status,
-    message: result.status === 'invalid' ? '认证失败/无效Key' : result.status === 'rate_limited' ? '请求频繁/被限流' : '请求失败',
+    message: result.status === 'invalid' ? 'error.invalid' : result.status === 'rate_limited' ? 'error.rateLimited' : 'error.failed',
     raw: result.raw,
   };
 }

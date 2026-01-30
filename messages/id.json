@@ -54,6 +54,11 @@
     "q3": "Apakah kunci API saya aman?",
     "a3": "Ya. Validasi dilakukan di browser Anda dan di server kami. Kami tidak menyimpan atau mencatat kunci API Anda."
   },
+  "error": {
+    "invalid": "Autentikasi gagal / Kunci tidak valid",
+    "rateLimited": "Batas permintaan tercapai",
+    "failed": "Permintaan gagal"
+  },
   "features": {
     "title": "Fitur",
     "f1": "Validasi beberapa kunci API sekaligus",

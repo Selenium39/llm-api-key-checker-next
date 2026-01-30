@@ -54,6 +54,11 @@
     "q3": "La mia API key è al sicuro?",
     "a3": "Sì. La validazione avviene nel tuo browser e sul nostro server. Non memorizziamo né registriamo le tue API key."
   },
+  "error": {
+    "invalid": "Autenticazione fallita / Chiave non valida",
+    "rateLimited": "Limite di richieste raggiunto",
+    "failed": "Richiesta fallita"
+  },
   "features": {
     "title": "Funzionalità",
     "f1": "Verifica più API key contemporaneamente",

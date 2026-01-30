@@ -54,6 +54,11 @@
     "q3": "Czy mój klucz API jest bezpieczny?",
     "a3": "Tak. Walidacja odbywa się w przeglądarce i na naszym serwerze. Nie przechowujemy ani nie logujemy Twoich kluczy API."
   },
+  "error": {
+    "invalid": "Uwierzytelnianie nie powiodło się / Nieprawidłowy klucz",
+    "rateLimited": "Osiągnięto limit żądań",
+    "failed": "Żądanie nie powiodło się"
+  },
   "features": {
     "title": "Funkcje",
     "f1": "Zbiorcza walidacja wielu kluczy API naraz",

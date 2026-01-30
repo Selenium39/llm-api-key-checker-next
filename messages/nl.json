@@ -54,6 +54,11 @@
     "q3": "Is mijn API-sleutel veilig?",
     "a3": "Ja. De validatie gebeurt in je browser en op onze server. We slaan je API-sleutels niet op en loggen ze niet."
   },
+  "error": {
+    "invalid": "Authenticatie mislukt / Ongeldige sleutel",
+    "rateLimited": "Rate-limit bereikt",
+    "failed": "Verzoek mislukt"
+  },
   "features": {
     "title": "Functies",
     "f1": "Meerdere API-sleutels tegelijk valideren",

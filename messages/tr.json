@@ -54,6 +54,11 @@
     "q3": "API anahtarım güvende mi?",
     "a3": "Evet. Doğrulama tarayıcınızda ve sunucumuzda yapılır. API anahtarlarınızı saklamıyor veya loglamıyoruz."
   },
+  "error": {
+    "invalid": "Kimlik doğrulama başarısız / Geçersiz anahtar",
+    "rateLimited": "İstek sınırına ulaşıldı",
+    "failed": "İstek başarısız"
+  },
   "features": {
     "title": "Özellikler",
     "f1": "Birden fazla API anahtarını aynı anda doğrulayın",

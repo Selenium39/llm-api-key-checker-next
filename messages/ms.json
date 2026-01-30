@@ -54,6 +54,11 @@
     "q3": "Adakah kunci API saya selamat?",
     "a3": "Ya. Pengesahan berlaku di pelayar anda dan pada pelayan kami. Kami tidak menyimpan atau melog kunci API anda."
   },
+  "error": {
+    "invalid": "Pengesahan gagal / Kunci tidak sah",
+    "rateLimited": "Had kadar dicapai",
+    "failed": "Permintaan gagal"
+  },
   "features": {
     "title": "Ciri-ciri",
     "f1": "Sahkan beberapa kunci API serentak",

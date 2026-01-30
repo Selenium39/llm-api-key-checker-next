@@ -54,6 +54,11 @@
     "q3": "Is my API key safe?",
     "a3": "Yes. All validation happens in your browser and our server. We never store or log your API keys."
   },
+  "error": {
+    "invalid": "Authentication failed / Invalid key",
+    "rateLimited": "Rate limited",
+    "failed": "Request failed"
+  },
   "features": {
     "title": "Features",
     "f1": "Batch validate multiple API keys at once",

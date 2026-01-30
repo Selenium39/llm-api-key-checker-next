@@ -54,6 +54,11 @@
     "q3": "Sind meine API-Keys sicher?",
     "a3": "Ja. Die Validierung erfolgt in deinem Browser und auf unserem Server. Wir speichern oder protokollieren deine API-Keys nicht."
   },
+  "error": {
+    "invalid": "Authentifizierung fehlgeschlagen / Ungültiger Key",
+    "rateLimited": "Rate-Limit erreicht",
+    "failed": "Anfrage fehlgeschlagen"
+  },
   "features": {
     "title": "Funktionen",
     "f1": "Mehrere API-Keys gleichzeitig prüfen",

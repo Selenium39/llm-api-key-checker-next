@@ -54,6 +54,11 @@
     "q3": "Minha chave de API é segura?",
     "a3": "Sim. A validação acontece no seu navegador e no nosso servidor. Nunca armazenamos ou registramos suas chaves de API."
   },
+  "error": {
+    "invalid": "Autenticação falhou / Chave inválida",
+    "rateLimited": "Limite de requisições atingido",
+    "failed": "Requisição falhou"
+  },
   "features": {
     "title": "Recursos",
     "f1": "Valide várias chaves de API de uma vez",

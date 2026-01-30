@@ -54,6 +54,11 @@
     "q3": "API key của tôi có an toàn không?",
     "a3": "Có. Việc kiểm tra diễn ra trong trình duyệt và trên máy chủ của chúng tôi. Chúng tôi không lưu trữ hoặc ghi log API key."
   },
+  "error": {
+    "invalid": "Xác thực thất bại / Key không hợp lệ",
+    "rateLimited": "Đã đạt giới hạn yêu cầu",
+    "failed": "Yêu cầu thất bại"
+  },
   "features": {
     "title": "Tính năng",
     "f1": "Kiểm tra nhiều API key cùng lúc",

@@ -54,6 +54,11 @@
     "q3": "Ma clé API est-elle sécurisée ?",
     "a3": "Oui. Toute la validation se fait dans votre navigateur et notre serveur. Nous ne stockons ni n'enregistrons jamais vos clés API."
   },
+  "error": {
+    "invalid": "Authentification échouée / Clé invalide",
+    "rateLimited": "Limite de requêtes atteinte",
+    "failed": "Échec de la requête"
+  },
   "features": {
     "title": "Fonctionnalités",
     "f1": "Validation en lot de plusieurs clés API",

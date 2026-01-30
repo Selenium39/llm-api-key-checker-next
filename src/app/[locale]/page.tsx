@@ -620,7 +620,7 @@ export default function Home() {
                               <span className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium border ${statusClass}`}>{statusLabel}</span>
                             </div>
                             <div className="col-span-2 font-mono text-[var(--foreground)] text-right pr-4">{typeof r.balance === 'number' ? r.balance : '-'}</div>
-                            <div className="col-span-4 truncate text-[var(--muted-foreground)] transform transition-all duration-300 hover:text-[var(--foreground)] hover:whitespace-normal hover:bg-[var(--background)] hover:absolute hover:z-10 hover:p-2 hover:rounded-md hover:shadow-xl hover:left-1/2 hover:w-1/2" title={r.message}>{r.message || ''}</div>
+                            <div className="col-span-4 truncate text-[var(--muted-foreground)] transform transition-all duration-300 hover:text-[var(--foreground)] hover:whitespace-normal hover:bg-[var(--background)] hover:absolute hover:z-10 hover:p-2 hover:rounded-md hover:shadow-xl hover:left-1/2 hover:w-1/2" title={r.message ? (r.message.startsWith('error.') ? t(r.message) : r.message) : ''}>{r.message ? (r.message.startsWith('error.') ? t(r.message) : r.message) : ''}</div>
                           </div>
                         );
                       })}
