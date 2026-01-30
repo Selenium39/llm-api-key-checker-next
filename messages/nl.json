@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API-sleutelchecker",
+    "subtitle": "Valideer API-sleutels in bulk met streaming voortgang."
+  },
+  "provider": {
+    "title": "Provider",
+    "providerLabel": "Provider",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Modellen ophalen",
+    "concurrency": "Gelijktijdigheid (1–50)",
+    "prompt": "Validatieprompt",
+    "start": "Start",
+    "stop": "Stop"
+  },
+  "keys": {
+    "title": "Sleutels",
+    "placeholder": "Plak sleutels hier (gescheiden door spatie/nieuwe regel/komma/puntkomma).",
+    "importFile": ".txt importeren",
+    "parsed": "Unieke sleutels",
+    "providerKind": "Providertype",
+    "balanceEnabled": "Saldo-check ingeschakeld"
+  },
+  "results": {
+    "title": "Resultaten",
+    "valid": "Geldig",
+    "invalid": "Ongeldig",
+    "rateLimited": "Rate-limited",
+    "low": "Laag",
+    "zero": "Nul",
+    "noBalance": "Geen saldo",
+    "other": "Overig",
+    "empty": "Nog geen resultaten.",
+    "colKey": "Sleutel",
+    "colStatus": "Status",
+    "colBalance": "Saldo",
+    "colMessage": "Bericht",
+    "lowThreshold": "Drempel laag saldo"
+  },
+  "footer": {
+    "sponsoredBy": "Gesponsord door",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API-sleutelchecker, API key validator, OpenAI sleutelchecker, Claude API validator, batch validatie, DeepSeek API checker, Gemini API validator, API key tester"
+  },
+  "faq": {
+    "q1": "Wat is LLM API Key Checker?",
+    "a1": "Een gratis online tool om API-sleutels van verschillende LLM-providers (o.a. OpenAI, Anthropic Claude, DeepSeek) in bulk te valideren.",
+    "q2": "Welke LLM-providers worden ondersteund?",
+    "a2": "We ondersteunen OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini en elke OpenAI-compatibele API.",
+    "q3": "Is mijn API-sleutel veilig?",
+    "a3": "Ja. De validatie gebeurt in je browser en op onze server. We slaan je API-sleutels niet op en loggen ze niet."
+  },
+  "features": {
+    "title": "Functies",
+    "f1": "Meerdere API-sleutels tegelijk valideren",
+    "f2": "Realtime voortgang via streaming",
+    "f3": "Saldo-check voor ondersteunde providers",
+    "f4": "Ondersteuning voor 10+ LLM-providers"
+  }
+}

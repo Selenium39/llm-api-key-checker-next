@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Sprawdzanie kluczy API LLM",
+    "subtitle": "Weryfikuj klucze API zbiorczo z postępem w trybie streaming."
+  },
+  "provider": {
+    "title": "Dostawca",
+    "providerLabel": "Dostawca",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Pobierz modele",
+    "concurrency": "Współbieżność (1–50)",
+    "prompt": "Prompt walidacyjny",
+    "start": "Start",
+    "stop": "Stop"
+  },
+  "keys": {
+    "title": "Klucze",
+    "placeholder": "Wklej klucze tutaj (oddzielone spacją/nową linią/przecinkiem/średnikiem).",
+    "importFile": "Importuj .txt",
+    "parsed": "Unikalne klucze",
+    "providerKind": "Typ dostawcy",
+    "balanceEnabled": "Sprawdzanie salda włączone"
+  },
+  "results": {
+    "title": "Wyniki",
+    "valid": "Poprawny",
+    "invalid": "Niepoprawny",
+    "rateLimited": "Limit",
+    "low": "Niskie",
+    "zero": "Zero",
+    "noBalance": "Brak salda",
+    "other": "Inne",
+    "empty": "Brak wyników.",
+    "colKey": "Klucz",
+    "colStatus": "Status",
+    "colBalance": "Saldo",
+    "colMessage": "Wiadomość",
+    "lowThreshold": "Próg niskiego salda"
+  },
+  "footer": {
+    "sponsoredBy": "Sponsorowane przez",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "sprawdzanie kluczy API LLM, walidator API key, sprawdzanie klucza OpenAI, walidator Claude API, walidacja wsadowa, sprawdzanie DeepSeek API, walidator Gemini API, tester API key"
+  },
+  "faq": {
+    "q1": "Czym jest LLM API Key Checker?",
+    "a1": "Darmowe narzędzie online do zbiorczej weryfikacji kluczy API różnych dostawców LLM, w tym OpenAI, Anthropic Claude, DeepSeek i innych.",
+    "q2": "Jakich dostawców LLM wspieracie?",
+    "a2": "Wspieramy OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini oraz każde API zgodne z OpenAI.",
+    "q3": "Czy mój klucz API jest bezpieczny?",
+    "a3": "Tak. Walidacja odbywa się w przeglądarce i na naszym serwerze. Nie przechowujemy ani nie logujemy Twoich kluczy API."
+  },
+  "features": {
+    "title": "Funkcje",
+    "f1": "Zbiorcza walidacja wielu kluczy API naraz",
+    "f2": "Postęp w czasie rzeczywistym (streaming)",
+    "f3": "Sprawdzanie salda dla wspieranych dostawców",
+    "f4": "Obsługa 10+ dostawców LLM"
+  }
+}

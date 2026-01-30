@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "ตัวตรวจสอบ API Key ของ LLM",
+    "subtitle": "ตรวจสอบ API key แบบเป็นชุด พร้อมแสดงความคืบหน้าแบบสตรีมมิง"
+  },
+  "provider": {
+    "title": "ผู้ให้บริการ",
+    "providerLabel": "ผู้ให้บริการ",
+    "baseUrl": "Base URL",
+    "model": "โมเดล",
+    "fetchModels": "ดึงรายชื่อโมเดล",
+    "concurrency": "ความขนาน (1–50)",
+    "prompt": "พรอมป์สำหรับตรวจสอบ",
+    "start": "เริ่ม",
+    "stop": "หยุด"
+  },
+  "keys": {
+    "title": "คีย์",
+    "placeholder": "วางคีย์ที่นี่ (คั่นด้วยช่องว่าง/ขึ้นบรรทัดใหม่/จุลภาค/อัฒภาค)",
+    "importFile": "นำเข้า .txt",
+    "parsed": "จำนวนคีย์ไม่ซ้ำ",
+    "providerKind": "ประเภทผู้ให้บริการ",
+    "balanceEnabled": "เปิดตรวจสอบยอดคงเหลือแล้ว"
+  },
+  "results": {
+    "title": "ผลลัพธ์",
+    "valid": "ใช้ได้",
+    "invalid": "ใช้ไม่ได้",
+    "rateLimited": "ถูกจำกัดอัตรา",
+    "low": "ต่ำ",
+    "zero": "ศูนย์",
+    "noBalance": "ไม่มียอดคงเหลือ",
+    "other": "อื่นๆ",
+    "empty": "ยังไม่มีผลลัพธ์",
+    "colKey": "คีย์",
+    "colStatus": "สถานะ",
+    "colBalance": "ยอดคงเหลือ",
+    "colMessage": "ข้อความ",
+    "lowThreshold": "เกณฑ์ยอดคงเหลือต่ำ"
+  },
+  "footer": {
+    "sponsoredBy": "สนับสนุนโดย",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "ตรวจสอบ LLM API key, ตัวตรวจสอบ API key, ตรวจสอบคีย์ OpenAI, ตรวจสอบ Claude API, ตรวจสอบแบบเป็นชุด, ตรวจสอบ DeepSeek API, ตรวจสอบ Gemini API, ทดสอบ API key"
+  },
+  "faq": {
+    "q1": "LLM API Key Checker คืออะไร?",
+    "a1": "เครื่องมือออนไลน์ฟรีสำหรับตรวจสอบ API key แบบเป็นชุดของผู้ให้บริการ LLM หลายราย เช่น OpenAI, Anthropic Claude, DeepSeek และอื่นๆ",
+    "q2": "รองรับผู้ให้บริการใดบ้าง?",
+    "a2": "รองรับ OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini และ API ที่เข้ากันได้กับ OpenAI",
+    "q3": "คีย์ของฉันปลอดภัยไหม?",
+    "a3": "ปลอดภัย การตรวจสอบทำในเบราว์เซอร์และบนเซิร์ฟเวอร์ของเรา เราไม่เก็บหรือบันทึก API key ของคุณ"
+  },
+  "features": {
+    "title": "ฟีเจอร์",
+    "f1": "ตรวจสอบหลาย API key พร้อมกัน",
+    "f2": "แสดงความคืบหน้าแบบเรียลไทม์ (streaming)",
+    "f3": "ตรวจสอบยอดคงเหลือสำหรับผู้ให้บริการที่รองรับ",
+    "f4": "รองรับผู้ให้บริการ LLM มากกว่า 10 ราย"
+  }
+}

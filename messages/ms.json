@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Penyemak Kunci API LLM",
+    "subtitle": "Sahkan kunci API secara pukal dengan kemajuan penstriman."
+  },
+  "provider": {
+    "title": "Penyedia",
+    "providerLabel": "Penyedia",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Dapatkan senarai model",
+    "concurrency": "Kekonkurenan (1–50)",
+    "prompt": "Prompt pengesahan",
+    "start": "Mula",
+    "stop": "Henti"
+  },
+  "keys": {
+    "title": "Kunci",
+    "placeholder": "Tampal kunci di sini (asingkan dengan ruang/baris baharu/koma/titik koma).",
+    "importFile": "Import .txt",
+    "parsed": "Kunci unik yang dihuraikan",
+    "providerKind": "Jenis penyedia",
+    "balanceEnabled": "Semakan baki diaktifkan"
+  },
+  "results": {
+    "title": "Keputusan",
+    "valid": "Sah",
+    "invalid": "Tidak sah",
+    "rateLimited": "Had kadar",
+    "low": "Rendah",
+    "zero": "Sifar",
+    "noBalance": "Tiada baki",
+    "other": "Lain-lain",
+    "empty": "Belum ada keputusan.",
+    "colKey": "Kunci",
+    "colStatus": "Status",
+    "colBalance": "Baki",
+    "colMessage": "Mesej",
+    "lowThreshold": "Ambang baki rendah"
+  },
+  "footer": {
+    "sponsoredBy": "Ditaja oleh",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "penyemak kunci API LLM, pengesah API key, semak kunci OpenAI, pengesah Claude API, pengesahan pukal, semak DeepSeek API, pengesah Gemini API, penguji API key"
+  },
+  "faq": {
+    "q1": "Apakah LLM API Key Checker?",
+    "a1": "Alat dalam talian percuma untuk mengesahkan kunci API secara pukal bagi pelbagai penyedia LLM termasuk OpenAI, Anthropic Claude, DeepSeek dan lain-lain.",
+    "q2": "Penyedia LLM mana yang disokong?",
+    "a2": "Kami menyokong OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini dan mana-mana API yang serasi dengan OpenAI.",
+    "q3": "Adakah kunci API saya selamat?",
+    "a3": "Ya. Pengesahan berlaku di pelayar anda dan pada pelayan kami. Kami tidak menyimpan atau melog kunci API anda."
+  },
+  "features": {
+    "title": "Ciri-ciri",
+    "f1": "Sahkan beberapa kunci API serentak",
+    "f2": "Kemajuan masa nyata melalui penstriman",
+    "f3": "Semakan baki untuk penyedia yang disokong",
+    "f4": "Sokongan untuk 10+ penyedia LLM"
+  }
+}

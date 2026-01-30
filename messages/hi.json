@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API कुंजी चेकर",
+    "subtitle": "API कुंजियों को बैच में सत्यापित करें और प्रगति को स्ट्रीमिंग में देखें।"
+  },
+  "provider": {
+    "title": "प्रदाता",
+    "providerLabel": "प्रदाता",
+    "baseUrl": "Base URL",
+    "model": "मॉडल",
+    "fetchModels": "मॉडल सूची लाएँ",
+    "concurrency": "समांतरता (1–50)",
+    "prompt": "वैलिडेशन प्रॉम्प्ट",
+    "start": "शुरू करें",
+    "stop": "रोकें"
+  },
+  "keys": {
+    "title": "कुंजियाँ",
+    "placeholder": "कुंजियाँ यहाँ पेस्ट करें (स्पेस/नई पंक्ति/कॉमा/सेमीकोलन से अलग करें)।",
+    "importFile": ".txt आयात करें",
+    "parsed": "अद्वितीय कुंजियाँ",
+    "providerKind": "प्रदाता प्रकार",
+    "balanceEnabled": "बैलेंस जाँच सक्षम"
+  },
+  "results": {
+    "title": "परिणाम",
+    "valid": "मान्य",
+    "invalid": "अमान्य",
+    "rateLimited": "रेट लिमिट",
+    "low": "कम",
+    "zero": "शून्य",
+    "noBalance": "बैलेंस नहीं",
+    "other": "अन्य",
+    "empty": "अभी कोई परिणाम नहीं।",
+    "colKey": "कुंजी",
+    "colStatus": "स्थिति",
+    "colBalance": "बैलेंस",
+    "colMessage": "संदेश",
+    "lowThreshold": "कम बैलेंस सीमा"
+  },
+  "footer": {
+    "sponsoredBy": "प्रायोजित",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API कुंजी चेकर, API key validator, OpenAI key checker, Claude API validator, batch API validation, DeepSeek API checker, Gemini API validator, API key tester"
+  },
+  "faq": {
+    "q1": "LLM API Key Checker क्या है?",
+    "a1": "यह एक मुफ्त ऑनलाइन टूल है जो OpenAI, Anthropic Claude, DeepSeek आदि जैसे LLM प्रदाताओं की API कुंजियों को बैच में सत्यापित करता है।",
+    "q2": "कौन से LLM प्रदाता समर्थित हैं?",
+    "a2": "हम OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini और किसी भी OpenAI-compatible API को सपोर्ट करते हैं।",
+    "q3": "क्या मेरी API कुंजी सुरक्षित है?",
+    "a3": "हाँ। सत्यापन आपके ब्राउज़र और हमारे सर्वर पर होता है। हम आपकी API कुंजियाँ स्टोर या लॉग नहीं करते।"
+  },
+  "features": {
+    "title": "विशेषताएँ",
+    "f1": "एक साथ कई API कुंजियाँ सत्यापित करें",
+    "f2": "रीयल-टाइम स्ट्रीमिंग प्रगति",
+    "f3": "समर्थित प्रदाताओं के लिए बैलेंस जाँच",
+    "f4": "10+ LLM प्रदाताओं का समर्थन"
+  }
+}

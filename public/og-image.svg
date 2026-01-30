@@ -1,0 +1,108 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="50%" style="stop-color:#1a1a3e"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="50%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="keyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative grid pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#6366f1" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#6366f1" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#6366f1" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#6366f1" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#6366f1" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#6366f1" stroke-width="1"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="#6366f1" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="200" fill="#8b5cf6" opacity="0.05"/>
+
+  <!-- Key icon -->
+  <g transform="translate(540, 140)" filter="url(#glow)">
+    <rect x="0" y="30" width="120" height="60" rx="30" fill="url(#keyGradient)"/>
+    <rect x="90" y="45" width="80" height="30" rx="5" fill="url(#keyGradient)"/>
+    <rect x="130" y="55" width="20" height="20" rx="3" fill="#1a1a3e"/>
+    <rect x="155" y="55" width="15" height="20" rx="3" fill="#1a1a3e"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="300" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="url(#titleGradient)">
+    LLM API Key Checker
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="370" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#94a3b8">
+    Batch validate API keys with streaming progress
+  </text>
+
+  <!-- Feature badges -->
+  <g transform="translate(250, 430)">
+    <!-- Badge 1: OpenAI -->
+    <rect x="0" y="0" width="140" height="44" rx="22" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3"/>
+    <text x="70" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="500" fill="#10b981">OpenAI</text>
+
+    <!-- Badge 2: Claude -->
+    <rect x="160" y="0" width="140" height="44" rx="22" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.3"/>
+    <text x="230" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="500" fill="#f59e0b">Claude</text>
+
+    <!-- Badge 3: DeepSeek -->
+    <rect x="320" y="0" width="140" height="44" rx="22" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-opacity="0.3"/>
+    <text x="390" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="500" fill="#818cf8">DeepSeek</text>
+
+    <!-- Badge 4: Gemini -->
+    <rect x="480" y="0" width="140" height="44" rx="22" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-opacity="0.3"/>
+    <text x="550" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="500" fill="#3b82f6">Gemini</text>
+
+    <!-- Badge 5: 10+ More -->
+    <rect x="640" y="0" width="140" height="44" rx="22" fill="#a78bfa" fill-opacity="0.15" stroke="#a78bfa" stroke-opacity="0.3"/>
+    <text x="710" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="500" fill="#a78bfa">10+ More</text>
+  </g>
+
+  <!-- Status indicators -->
+  <g transform="translate(350, 510)">
+    <circle cx="15" cy="15" r="8" fill="#10b981"/>
+    <text x="35" y="21" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Valid</text>
+
+    <circle cx="145" cy="15" r="8" fill="#f59e0b"/>
+    <text x="165" y="21" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Low Balance</text>
+
+    <circle cx="325" cy="15" r="8" fill="#ef4444"/>
+    <text x="345" y="21" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Invalid</text>
+
+    <circle cx="455" cy="15" r="8" fill="#6366f1"/>
+    <text x="475" y="21" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Streaming</text>
+  </g>
+
+  <!-- Website URL -->
+  <text x="600" y="590" text-anchor="middle" font-family="monospace" font-size="20" fill="#6366f1" opacity="0.8">
+    check.chat-tempmail.com
+  </text>
+</svg>

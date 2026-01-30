@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API 金鑰檢測",
+    "subtitle": "批量驗證 API Key，並即時串流展示進度。"
+  },
+  "provider": {
+    "title": "服務商設定",
+    "providerLabel": "服務商",
+    "baseUrl": "Base URL",
+    "model": "模型",
+    "fetchModels": "取得模型列表",
+    "concurrency": "並發（1-50）",
+    "prompt": "驗證提示詞",
+    "start": "開始",
+    "stop": "停止"
+  },
+  "keys": {
+    "title": "金鑰",
+    "placeholder": "在此貼上金鑰（空格/換行/逗號/分號分隔）。",
+    "importFile": "匯入 .txt",
+    "parsed": "解析後的去重 Key 數量",
+    "providerKind": "介面類型",
+    "balanceEnabled": "已啟用餘額查詢"
+  },
+  "results": {
+    "title": "結果",
+    "valid": "有效",
+    "invalid": "無效",
+    "rateLimited": "限流",
+    "low": "低額",
+    "zero": "零額",
+    "noBalance": "無額",
+    "other": "其他",
+    "empty": "暫無結果。",
+    "colKey": "Key",
+    "colStatus": "狀態",
+    "colBalance": "餘額",
+    "colMessage": "資訊",
+    "lowThreshold": "低額閾值"
+  },
+  "footer": {
+    "sponsoredBy": "由",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": "贊助"
+  },
+  "seo": {
+    "keywords": "LLM API金鑰檢測, API Key驗證工具, OpenAI金鑰檢測, Claude API驗證, 批量API驗證, DeepSeek API檢測, Gemini API驗證, API金鑰測試"
+  },
+  "faq": {
+    "q1": "什麼是 LLM API 金鑰檢測工具？",
+    "a1": "一個免費的線上工具，可批量驗證各種 LLM 服務商的 API 金鑰，包括 OpenAI、Anthropic Claude、DeepSeek 等。",
+    "q2": "支援哪些 LLM 服務商？",
+    "a2": "我們支援 OpenAI、Anthropic (Claude)、DeepSeek、Moonshot、智譜 AI、通義千問、Groq、Google Gemini，以及任何相容 OpenAI 的 API。",
+    "q3": "我的 API 金鑰安全嗎？",
+    "a3": "是的。所有驗證都在您的瀏覽器和我們的伺服器中進行。我們從不儲存或記錄您的 API 金鑰。"
+  },
+  "features": {
+    "title": "功能特點",
+    "f1": "批量驗證多個 API 金鑰",
+    "f2": "即時串流進度顯示",
+    "f3": "支援餘額查詢的服務商自動查詢餘額",
+    "f4": "支援 10+ 個 LLM 服務商"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API Anahtar Denetleyici",
+    "subtitle": "API anahtarlarını toplu doğrulayın ve ilerlemeyi canlı (streaming) izleyin."
+  },
+  "provider": {
+    "title": "Sağlayıcı",
+    "providerLabel": "Sağlayıcı",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Modelleri getir",
+    "concurrency": "Eşzamanlılık (1–50)",
+    "prompt": "Doğrulama istemi",
+    "start": "Başlat",
+    "stop": "Durdur"
+  },
+  "keys": {
+    "title": "Anahtarlar",
+    "placeholder": "Anahtarları buraya yapıştırın (boşluk/satır/virgül/noktalı virgül ile ayırın).",
+    "importFile": ".txt içe aktar",
+    "parsed": "Ayrıştırılan benzersiz anahtar",
+    "providerKind": "Sağlayıcı türü",
+    "balanceEnabled": "Bakiye kontrolü etkin"
+  },
+  "results": {
+    "title": "Sonuçlar",
+    "valid": "Geçerli",
+    "invalid": "Geçersiz",
+    "rateLimited": "Sınırlı",
+    "low": "Düşük",
+    "zero": "Sıfır",
+    "noBalance": "Bakiye yok",
+    "other": "Diğer",
+    "empty": "Henüz sonuç yok.",
+    "colKey": "Anahtar",
+    "colStatus": "Durum",
+    "colBalance": "Bakiye",
+    "colMessage": "Mesaj",
+    "lowThreshold": "Düşük bakiye eşiği"
+  },
+  "footer": {
+    "sponsoredBy": "Sponsor",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API anahtar denetleyici, API key doğrulayıcı, OpenAI key kontrol, Claude API doğrulayıcı, toplu API doğrulama, DeepSeek API kontrol, Gemini API doğrulayıcı, API key tester"
+  },
+  "faq": {
+    "q1": "LLM API Key Checker nedir?",
+    "a1": "OpenAI, Anthropic Claude, DeepSeek ve daha fazlası gibi LLM sağlayıcılarının API anahtarlarını toplu doğrulamak için ücretsiz bir çevrimiçi araç.",
+    "q2": "Hangi LLM sağlayıcıları destekleniyor?",
+    "a2": "OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini ve OpenAI uyumlu tüm API'leri destekliyoruz.",
+    "q3": "API anahtarım güvende mi?",
+    "a3": "Evet. Doğrulama tarayıcınızda ve sunucumuzda yapılır. API anahtarlarınızı saklamıyor veya loglamıyoruz."
+  },
+  "features": {
+    "title": "Özellikler",
+    "f1": "Birden fazla API anahtarını aynı anda doğrulayın",
+    "f2": "Gerçek zamanlı streaming ilerleme",
+    "f3": "Desteklenen sağlayıcılar için bakiye kontrolü",
+    "f4": "10+ LLM sağlayıcı desteği"
+  }
+}

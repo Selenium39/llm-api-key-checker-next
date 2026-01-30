@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Verificador de Chaves de API LLM",
+    "subtitle": "Valide chaves de API em lote com progresso em streaming."
+  },
+  "provider": {
+    "title": "Provedor",
+    "providerLabel": "Provedor",
+    "baseUrl": "Base URL",
+    "model": "Modelo",
+    "fetchModels": "Buscar modelos",
+    "concurrency": "Concorrência (1–50)",
+    "prompt": "Prompt de validação",
+    "start": "Iniciar",
+    "stop": "Parar"
+  },
+  "keys": {
+    "title": "Chaves",
+    "placeholder": "Cole as chaves aqui (separadas por espaço/linha/virgula/ponto e vírgula).",
+    "importFile": "Importar .txt",
+    "parsed": "Chaves únicas analisadas",
+    "providerKind": "Tipo de provedor",
+    "balanceEnabled": "Verificação de saldo ativada"
+  },
+  "results": {
+    "title": "Resultados",
+    "valid": "Válida",
+    "invalid": "Inválida",
+    "rateLimited": "Limitada",
+    "low": "Baixo",
+    "zero": "Zero",
+    "noBalance": "Sem saldo",
+    "other": "Outros",
+    "empty": "Ainda sem resultados.",
+    "colKey": "Chave",
+    "colStatus": "Status",
+    "colBalance": "Saldo",
+    "colMessage": "Mensagem",
+    "lowThreshold": "Limite de saldo baixo"
+  },
+  "footer": {
+    "sponsoredBy": "Patrocinado por",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "verificador de chave API LLM, validador de chave API, checar chave OpenAI, validador Claude API, validação em lote, checar DeepSeek API, validador Gemini API, tester de chave API"
+  },
+  "faq": {
+    "q1": "O que é o LLM API Key Checker?",
+    "a1": "Uma ferramenta online gratuita para validar em lote chaves de API de vários provedores de LLM, incluindo OpenAI, Anthropic Claude, DeepSeek e mais.",
+    "q2": "Quais provedores de LLM são suportados?",
+    "a2": "Suportamos OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini e qualquer API compatível com OpenAI.",
+    "q3": "Minha chave de API é segura?",
+    "a3": "Sim. A validação acontece no seu navegador e no nosso servidor. Nunca armazenamos ou registramos suas chaves de API."
+  },
+  "features": {
+    "title": "Recursos",
+    "f1": "Valide várias chaves de API de uma vez",
+    "f2": "Progresso em tempo real via streaming",
+    "f3": "Verificação de saldo para provedores suportados",
+    "f4": "Suporte para 10+ provedores de LLM"
+  }
+}

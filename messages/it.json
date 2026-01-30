@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Verifica chiavi API LLM",
+    "subtitle": "Verifica in batch le API key con avanzamento in streaming."
+  },
+  "provider": {
+    "title": "Provider",
+    "providerLabel": "Provider",
+    "baseUrl": "Base URL",
+    "model": "Modello",
+    "fetchModels": "Recupera modelli",
+    "concurrency": "Concorrenza (1-50)",
+    "prompt": "Prompt di validazione",
+    "start": "Avvia",
+    "stop": "Stop"
+  },
+  "keys": {
+    "title": "Chiavi",
+    "placeholder": "Incolla qui le chiavi (separate da spazio/a capo/virgola/punto e virgola).",
+    "importFile": "Importa .txt",
+    "parsed": "Chiavi uniche rilevate",
+    "providerKind": "Tipo di provider",
+    "balanceEnabled": "Controllo saldo attivato"
+  },
+  "results": {
+    "title": "Risultati",
+    "valid": "Valida",
+    "invalid": "Non valida",
+    "rateLimited": "Limitata",
+    "low": "Basso",
+    "zero": "Zero",
+    "noBalance": "Senza saldo",
+    "other": "Altro",
+    "empty": "Nessun risultato.",
+    "colKey": "Chiave",
+    "colStatus": "Stato",
+    "colBalance": "Saldo",
+    "colMessage": "Messaggio",
+    "lowThreshold": "Soglia basso"
+  },
+  "footer": {
+    "sponsoredBy": "Sponsorizzato da",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "verifica chiave API LLM, validatore API key, controllo chiave OpenAI, validatore Claude API, validazione batch API, controllo DeepSeek API, validatore Gemini API, tester API key"
+  },
+  "faq": {
+    "q1": "Cos'è LLM API Key Checker?",
+    "a1": "Uno strumento online gratuito per validare in batch le API key di vari provider LLM, inclusi OpenAI, Anthropic Claude, DeepSeek e altri.",
+    "q2": "Quali provider LLM sono supportati?",
+    "a2": "Supportiamo OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini e qualsiasi API compatibile con OpenAI.",
+    "q3": "La mia API key è al sicuro?",
+    "a3": "Sì. La validazione avviene nel tuo browser e sul nostro server. Non memorizziamo né registriamo le tue API key."
+  },
+  "features": {
+    "title": "Funzionalità",
+    "f1": "Verifica più API key contemporaneamente",
+    "f2": "Avanzamento in tempo reale via streaming",
+    "f3": "Controllo saldo per i provider supportati",
+    "f4": "Supporto per 10+ provider LLM"
+  }
+}

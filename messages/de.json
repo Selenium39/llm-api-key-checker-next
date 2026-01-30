@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API-Key-Prüfer",
+    "subtitle": "API-Keys stapelweise prüfen – mit Streaming-Fortschritt in Echtzeit."
+  },
+  "provider": {
+    "title": "Anbieter",
+    "providerLabel": "Anbieter",
+    "baseUrl": "Base-URL",
+    "model": "Modell",
+    "fetchModels": "Modelle abrufen",
+    "concurrency": "Parallelität (1–50)",
+    "prompt": "Validierungs-Prompt",
+    "start": "Start",
+    "stop": "Stopp"
+  },
+  "keys": {
+    "title": "Keys",
+    "placeholder": "Keys hier einfügen (durch Leerzeichen/Zeilenumbruch/Komma/Semikolon getrennt).",
+    "importFile": ".txt importieren",
+    "parsed": "Eindeutige Keys (geparst)",
+    "providerKind": "Provider-Typ",
+    "balanceEnabled": "Kontostandsprüfung aktiviert"
+  },
+  "results": {
+    "title": "Ergebnisse",
+    "valid": "Gültig",
+    "invalid": "Ungültig",
+    "rateLimited": "Rate-Limit",
+    "low": "Niedrig",
+    "zero": "Null",
+    "noBalance": "Kein Guthaben",
+    "other": "Sonstiges",
+    "empty": "Noch keine Ergebnisse.",
+    "colKey": "Key",
+    "colStatus": "Status",
+    "colBalance": "Guthaben",
+    "colMessage": "Nachricht",
+    "lowThreshold": "Niedrig-Schwelle"
+  },
+  "footer": {
+    "sponsoredBy": "Gesponsert von",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API-Key Prüfer, API-Key Validator, OpenAI Key prüfen, Claude API validieren, Batch-Validierung, DeepSeek API prüfen, Gemini API validieren, API-Key Tester"
+  },
+  "faq": {
+    "q1": "Was ist der LLM API-Key-Prüfer?",
+    "a1": "Ein kostenloses Online-Tool, um API-Keys verschiedener LLM-Anbieter (u. a. OpenAI, Anthropic Claude, DeepSeek) im Batch zu validieren.",
+    "q2": "Welche LLM-Anbieter werden unterstützt?",
+    "a2": "Wir unterstützen OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini sowie jede OpenAI-kompatible API.",
+    "q3": "Sind meine API-Keys sicher?",
+    "a3": "Ja. Die Validierung erfolgt in deinem Browser und auf unserem Server. Wir speichern oder protokollieren deine API-Keys nicht."
+  },
+  "features": {
+    "title": "Funktionen",
+    "f1": "Mehrere API-Keys gleichzeitig prüfen",
+    "f2": "Echtzeit-Fortschritt per Streaming",
+    "f3": "Guthabenprüfung für unterstützte Anbieter",
+    "f4": "Unterstützung für 10+ LLM-Anbieter"
+  }
+}

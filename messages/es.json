@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Verificador de Claves API LLM",
+    "subtitle": "Valida claves API en lote con progreso en tiempo real."
+  },
+  "provider": {
+    "title": "Proveedor",
+    "providerLabel": "Proveedor",
+    "baseUrl": "URL Base",
+    "model": "Modelo",
+    "fetchModels": "Obtener modelos",
+    "concurrency": "Concurrencia (1-50)",
+    "prompt": "Prompt de validación",
+    "start": "Iniciar",
+    "stop": "Detener"
+  },
+  "keys": {
+    "title": "Claves",
+    "placeholder": "Pegue las claves aquí (separadas por espacio/salto de línea/coma/punto y coma).",
+    "importFile": "Importar .txt",
+    "parsed": "Claves únicas analizadas",
+    "providerKind": "Tipo de proveedor",
+    "balanceEnabled": "Verificación de saldo habilitada"
+  },
+  "results": {
+    "title": "Resultados",
+    "valid": "Válida",
+    "invalid": "Inválida",
+    "rateLimited": "Limitada",
+    "low": "Bajo",
+    "zero": "Cero",
+    "noBalance": "Sin saldo",
+    "other": "Otro",
+    "empty": "Sin resultados aún.",
+    "colKey": "Clave",
+    "colStatus": "Estado",
+    "colBalance": "Saldo",
+    "colMessage": "Mensaje",
+    "lowThreshold": "Umbral bajo"
+  },
+  "footer": {
+    "sponsoredBy": "Patrocinado por",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "verificador de claves API LLM, validador de claves API, verificador de claves OpenAI, validador API Claude, validación de API en lote, verificador API DeepSeek, validador API Gemini, probador de claves API"
+  },
+  "faq": {
+    "q1": "¿Qué es el Verificador de Claves API LLM?",
+    "a1": "Una herramienta gratuita en línea para validar claves API en lote para varios proveedores de LLM, incluyendo OpenAI, Anthropic Claude, DeepSeek y más.",
+    "q2": "¿Qué proveedores de LLM son compatibles?",
+    "a2": "Soportamos OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini y cualquier API compatible con OpenAI.",
+    "q3": "¿Mi clave API está segura?",
+    "a3": "Sí. Toda la validación ocurre en tu navegador y nuestro servidor. Nunca almacenamos ni registramos tus claves API."
+  },
+  "features": {
+    "title": "Características",
+    "f1": "Valida múltiples claves API a la vez",
+    "f2": "Progreso en tiempo real con streaming",
+    "f3": "Verificación de saldo para proveedores compatibles",
+    "f4": "Soporte para más de 10 proveedores de LLM"
+  }
+}

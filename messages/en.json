@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API Key Checker",
+    "subtitle": "Batch validate API keys with streaming progress."
+  },
+  "provider": {
+    "title": "Provider",
+    "providerLabel": "Provider",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Fetch models",
+    "concurrency": "Concurrency (1-50)",
+    "prompt": "Validation prompt",
+    "start": "Start",
+    "stop": "Stop"
+  },
+  "keys": {
+    "title": "Keys",
+    "placeholder": "Paste keys here (space/newline/comma/semicolon separated).",
+    "importFile": "Import .txt",
+    "parsed": "Parsed unique keys",
+    "providerKind": "Provider kind",
+    "balanceEnabled": "Balance check enabled"
+  },
+  "results": {
+    "title": "Results",
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "rateLimited": "Rate limited",
+    "low": "Low",
+    "zero": "Zero",
+    "noBalance": "No balance",
+    "other": "Other",
+    "empty": "No results yet.",
+    "colKey": "Key",
+    "colStatus": "Status",
+    "colBalance": "Balance",
+    "colMessage": "Message",
+    "lowThreshold": "Low threshold"
+  },
+  "footer": {
+    "sponsoredBy": "Sponsored by",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API key checker, API key validator, OpenAI key checker, Claude API validator, batch API validation, DeepSeek API checker, Gemini API validator, API key tester"
+  },
+  "faq": {
+    "q1": "What is LLM API Key Checker?",
+    "a1": "A free online tool to batch validate API keys for various LLM providers including OpenAI, Anthropic Claude, DeepSeek, and more.",
+    "q2": "Which LLM providers are supported?",
+    "a2": "We support OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini, and any OpenAI-compatible API.",
+    "q3": "Is my API key safe?",
+    "a3": "Yes. All validation happens in your browser and our server. We never store or log your API keys."
+  },
+  "features": {
+    "title": "Features",
+    "f1": "Batch validate multiple API keys at once",
+    "f2": "Real-time streaming progress",
+    "f3": "Balance checking for supported providers",
+    "f4": "Support for 10+ LLM providers"
+  }
+}

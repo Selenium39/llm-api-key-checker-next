@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Trình kiểm tra API Key LLM",
+    "subtitle": "Kiểm tra hàng loạt API key với tiến độ streaming theo thời gian thực."
+  },
+  "provider": {
+    "title": "Nhà cung cấp",
+    "providerLabel": "Nhà cung cấp",
+    "baseUrl": "Base URL",
+    "model": "Mô hình",
+    "fetchModels": "Lấy danh sách mô hình",
+    "concurrency": "Song song (1–50)",
+    "prompt": "Prompt kiểm tra",
+    "start": "Bắt đầu",
+    "stop": "Dừng"
+  },
+  "keys": {
+    "title": "Key",
+    "placeholder": "Dán key tại đây (phân tách bằng khoảng trắng/xuống dòng/dấu phẩy/dấu chấm phẩy).",
+    "importFile": "Nhập .txt",
+    "parsed": "Số key duy nhất",
+    "providerKind": "Loại provider",
+    "balanceEnabled": "Đã bật kiểm tra số dư"
+  },
+  "results": {
+    "title": "Kết quả",
+    "valid": "Hợp lệ",
+    "invalid": "Không hợp lệ",
+    "rateLimited": "Bị giới hạn",
+    "low": "Thấp",
+    "zero": "Bằng 0",
+    "noBalance": "Không có số dư",
+    "other": "Khác",
+    "empty": "Chưa có kết quả.",
+    "colKey": "Key",
+    "colStatus": "Trạng thái",
+    "colBalance": "Số dư",
+    "colMessage": "Thông báo",
+    "lowThreshold": "Ngưỡng số dư thấp"
+  },
+  "footer": {
+    "sponsoredBy": "Tài trợ bởi",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "kiểm tra API key LLM, xác thực API key, kiểm tra key OpenAI, xác thực Claude API, kiểm tra hàng loạt, kiểm tra DeepSeek API, xác thực Gemini API, thử API key"
+  },
+  "faq": {
+    "q1": "LLM API Key Checker là gì?",
+    "a1": "Công cụ trực tuyến miễn phí để kiểm tra hàng loạt API key cho nhiều nhà cung cấp LLM như OpenAI, Anthropic Claude, DeepSeek, v.v.",
+    "q2": "Hỗ trợ những nhà cung cấp nào?",
+    "a2": "Hỗ trợ OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini và mọi API tương thích OpenAI.",
+    "q3": "API key của tôi có an toàn không?",
+    "a3": "Có. Việc kiểm tra diễn ra trong trình duyệt và trên máy chủ của chúng tôi. Chúng tôi không lưu trữ hoặc ghi log API key."
+  },
+  "features": {
+    "title": "Tính năng",
+    "f1": "Kiểm tra nhiều API key cùng lúc",
+    "f2": "Tiến độ thời gian thực (streaming)",
+    "f3": "Kiểm tra số dư cho các provider được hỗ trợ",
+    "f4": "Hỗ trợ 10+ nhà cung cấp LLM"
+  }
+}

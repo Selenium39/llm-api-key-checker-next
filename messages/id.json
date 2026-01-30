@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Pemeriksa Kunci API LLM",
+    "subtitle": "Validasi kunci API secara massal dengan progres streaming."
+  },
+  "provider": {
+    "title": "Penyedia",
+    "providerLabel": "Penyedia",
+    "baseUrl": "Base URL",
+    "model": "Model",
+    "fetchModels": "Ambil daftar model",
+    "concurrency": "Konkruensi (1–50)",
+    "prompt": "Prompt validasi",
+    "start": "Mulai",
+    "stop": "Berhenti"
+  },
+  "keys": {
+    "title": "Kunci",
+    "placeholder": "Tempel kunci di sini (pisahkan dengan spasi/baris baru/koma/titik koma).",
+    "importFile": "Impor .txt",
+    "parsed": "Kunci unik terurai",
+    "providerKind": "Jenis penyedia",
+    "balanceEnabled": "Pemeriksaan saldo diaktifkan"
+  },
+  "results": {
+    "title": "Hasil",
+    "valid": "Valid",
+    "invalid": "Tidak valid",
+    "rateLimited": "Dibatasi",
+    "low": "Rendah",
+    "zero": "Nol",
+    "noBalance": "Tanpa saldo",
+    "other": "Lainnya",
+    "empty": "Belum ada hasil.",
+    "colKey": "Kunci",
+    "colStatus": "Status",
+    "colBalance": "Saldo",
+    "colMessage": "Pesan",
+    "lowThreshold": "Ambang saldo rendah"
+  },
+  "footer": {
+    "sponsoredBy": "Disponsori oleh",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "pemeriksa kunci API LLM, validator API key, cek kunci OpenAI, validator Claude API, validasi batch API, cek DeepSeek API, validator Gemini API, tester API key"
+  },
+  "faq": {
+    "q1": "Apa itu LLM API Key Checker?",
+    "a1": "Alat online gratis untuk memvalidasi kunci API secara massal untuk berbagai penyedia LLM seperti OpenAI, Anthropic Claude, DeepSeek, dan lainnya.",
+    "q2": "Penyedia LLM apa saja yang didukung?",
+    "a2": "Kami mendukung OpenAI, Anthropic (Claude), DeepSeek, Moonshot, Zhipu AI, Qwen, Groq, Google Gemini, dan API yang kompatibel dengan OpenAI.",
+    "q3": "Apakah kunci API saya aman?",
+    "a3": "Ya. Validasi dilakukan di browser Anda dan di server kami. Kami tidak menyimpan atau mencatat kunci API Anda."
+  },
+  "features": {
+    "title": "Fitur",
+    "f1": "Validasi beberapa kunci API sekaligus",
+    "f2": "Progres real-time via streaming",
+    "f3": "Pemeriksaan saldo untuk penyedia yang didukung",
+    "f4": "Dukungan untuk 10+ penyedia LLM"
+  }
+}

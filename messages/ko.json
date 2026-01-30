@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "LLM API 키 검사기",
+    "subtitle": "스트리밍 진행률로 API 키 일괄 검증"
+  },
+  "provider": {
+    "title": "제공업체",
+    "providerLabel": "제공업체",
+    "baseUrl": "기본 URL",
+    "model": "모델",
+    "fetchModels": "모델 가져오기",
+    "concurrency": "동시 실행 수 (1-50)",
+    "prompt": "검증 프롬프트",
+    "start": "시작",
+    "stop": "중지"
+  },
+  "keys": {
+    "title": "키",
+    "placeholder": "여기에 키를 붙여넣으세요 (공백/줄바꿈/쉼표/세미콜론으로 구분)",
+    "importFile": ".txt 가져오기",
+    "parsed": "파싱된 고유 키",
+    "providerKind": "제공업체 종류",
+    "balanceEnabled": "잔액 확인 활성화"
+  },
+  "results": {
+    "title": "결과",
+    "valid": "유효",
+    "invalid": "무효",
+    "rateLimited": "속도 제한",
+    "low": "잔액 부족",
+    "zero": "잔액 없음",
+    "noBalance": "잔액 없음",
+    "other": "기타",
+    "empty": "아직 결과가 없습니다",
+    "colKey": "키",
+    "colStatus": "상태",
+    "colBalance": "잔액",
+    "colMessage": "메시지",
+    "lowThreshold": "낮은 잔액 기준"
+  },
+  "footer": {
+    "sponsoredBy": "후원:",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "LLM API 키 검사기, API 키 검증, OpenAI 키 검사기, Claude API 검증, 일괄 API 검증, DeepSeek API 검사기, Gemini API 검증, API 키 테스터"
+  },
+  "faq": {
+    "q1": "LLM API 키 검사기란?",
+    "a1": "OpenAI, Anthropic Claude, DeepSeek 등 다양한 LLM 제공업체의 API 키를 일괄 검증할 수 있는 무료 온라인 도구입니다.",
+    "q2": "지원되는 LLM 제공업체는?",
+    "a2": "OpenAI, Anthropic (Claude), DeepSeek, Moonshot, 智譜 AI, Qwen, Groq, Google Gemini 및 OpenAI 호환 API를 지원합니다.",
+    "q3": "API 키는 안전한가요?",
+    "a3": "네. 모든 검증은 브라우저와 서버에서 이루어집니다. API 키를 저장하거나 기록하지 않습니다."
+  },
+  "features": {
+    "title": "기능",
+    "f1": "여러 API 키 일괄 검증",
+    "f2": "실시간 스트리밍 진행률",
+    "f3": "지원 제공업체 잔액 확인",
+    "f4": "10개 이상의 LLM 제공업체 지원"
+  }
+}

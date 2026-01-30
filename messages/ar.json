@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "فاحص مفاتيح واجهة API لنماذج LLM",
+    "subtitle": "تحقّق من مفاتيح API دفعة واحدة مع عرض التقدّم بشكل بثّي."
+  },
+  "provider": {
+    "title": "المزوّد",
+    "providerLabel": "المزوّد",
+    "baseUrl": "Base URL",
+    "model": "النموذج",
+    "fetchModels": "جلب النماذج",
+    "concurrency": "التوازي (1–50)",
+    "prompt": "نص التحقق",
+    "start": "بدء",
+    "stop": "إيقاف"
+  },
+  "keys": {
+    "title": "المفاتيح",
+    "placeholder": "ألصق المفاتيح هنا (افصل بمسافة/سطر جديد/فاصلة/فاصلة منقوطة).",
+    "importFile": "استيراد .txt",
+    "parsed": "عدد المفاتيح الفريدة",
+    "providerKind": "نوع المزوّد",
+    "balanceEnabled": "تم تفعيل فحص الرصيد"
+  },
+  "results": {
+    "title": "النتائج",
+    "valid": "صالح",
+    "invalid": "غير صالح",
+    "rateLimited": "محدود",
+    "low": "منخفض",
+    "zero": "صفر",
+    "noBalance": "لا يوجد رصيد",
+    "other": "أخرى",
+    "empty": "لا توجد نتائج بعد.",
+    "colKey": "المفتاح",
+    "colStatus": "الحالة",
+    "colBalance": "الرصيد",
+    "colMessage": "الرسالة",
+    "lowThreshold": "حد الرصيد المنخفض"
+  },
+  "footer": {
+    "sponsoredBy": "برعاية",
+    "sponsor": "ChatTempMail",
+    "sponsoredSuffix": ""
+  },
+  "seo": {
+    "keywords": "فاحص مفاتيح LLM API, التحقق من API key, فحص مفتاح OpenAI, التحقق من Claude API, فحص دفعي, فحص DeepSeek API, التحقق من Gemini API, اختبار API key"
+  },
+  "faq": {
+    "q1": "ما هو LLM API Key Checker؟",
+    "a1": "أداة مجانية عبر الإنترنت للتحقق دفعة واحدة من مفاتيح API لعدة مزوّدين مثل OpenAI وAnthropic Claude وDeepSeek وغيرها.",
+    "q2": "ما المزوّدون المدعومون؟",
+    "a2": "ندعم OpenAI وAnthropic (Claude) وDeepSeek وMoonshot وZhipu AI وQwen وGroq وGoogle Gemini وأي API متوافق مع OpenAI.",
+    "q3": "هل مفاتيح API الخاصة بي آمنة؟",
+    "a3": "نعم. يتم التحقق في متصفحك وعلى خادمنا. لا نقوم بتخزين أو تسجيل مفاتيح API الخاصة بك."
+  },
+  "features": {
+    "title": "الميزات",
+    "f1": "التحقق من عدة مفاتيح API مرة واحدة",
+    "f2": "تقدّم لحظي عبر البث",
+    "f3": "فحص الرصيد للمزوّدين المدعومين",
+    "f4": "دعم لأكثر من 10 مزوّدين"
+  }
+}
