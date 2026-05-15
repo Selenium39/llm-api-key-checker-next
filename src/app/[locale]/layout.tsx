@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { routing } from './routing';
@@ -70,6 +71,11 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        <Script
+          src="https://umami.selenium39.me/script.js"
+          data-website-id="7a287b36-c5a5-41dd-9b39-d90d0cb70cce"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
